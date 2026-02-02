@@ -1,0 +1,4 @@
+Script: benign_activity.sh
+Iterations: 10
+SLeep: 60 seconds
+Labe: benign

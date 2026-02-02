@@ -1,0 +1,57 @@
+Dataset Name: malicious_local
+Log File: malicious_local.log
+
+Environment:
+- OS: Ubuntu 22.04 LTS
+- Kernel: 5.x
+- Host Type: Virtual Machine
+- Isolation: NAT / Host-only
+- auditd: enabled
+
+Attack Source:
+- Origin: Local (same host)
+- Privilege Level: User + sudo
+- Script Used: malicious_local_loop.sh
+
+Attack Techniques (Simulated):
+- Reconnaissance:
+  - ps aux
+  - whoami
+  - id
+  - uname -a
+- Network Inspection:
+  - ss -tulnp
+- LOLBins:
+  - curl | bash execution
+- Privilege Escalation Pattern:
+  - sudo -l
+  - sudo whoami
+- Persistence Attempt:
+  - Cron job creation in /etc/cron.d
+- Impact Simulation:
+  - Mass file creation (ransomware-like)
+
+Execution Details:
+- Iterations: 10
+- Delay Between Iterations: 90 seconds
+- Total Duration: ~20 minutes
+
+Telemetry Captured:
+- auditd syscall logs
+- Process execution events
+- File creation/deletion
+- Cron modifications
+
+Cleanup:
+- All files deleted after execution
+- Cron persistence removed
+
+Label:
+- Class: malicious
+- Subtype: local
+
+Notes:
+- No real malware used
+- No system damage
+- Safe simulation for HIDS training
+

@@ -1,0 +1,52 @@
+Dataset Name: malicious_remote
+Log Files:
+- malicious_remote.log
+- malicious_remote_auth.log
+
+Environment:
+- Victim OS: Ubuntu 22.04 LTS
+- Attacker OS: Kali Linux
+- Network Type: Host-only / Internal
+- SSH Service: Enabled
+- auditd: enabled
+
+Attack Source:
+- Origin: Remote
+- Attacker IP: <KALI_IP>
+- Target IP: <UBUNTU_IP>
+- Script Used: kali_attack_loop.sh
+
+Attack Techniques (Simulated):
+- Network Scanning:
+  - nmap SYN scan (ports 22, 80, 443)
+- Authentication Attacks:
+  - SSH login attempts (invalid users)
+- Banner Grabbing:
+  - netcat connection to port 22
+
+Execution Details:
+- Iterations: 10
+- Delay Between Iterations: 60 seconds
+- Total Duration: ~15 minutes
+
+Telemetry Captured:
+- auditd process execution
+- sshd activity
+- auth.log (failed logins)
+- Network socket activity
+
+Observed Indicators:
+- Repeated sshd executions
+- Failed password attempts
+- Source IP correlation
+- Temporal attack patterns
+
+Label:
+- Class: malicious
+- Subtype: remote
+
+Notes:
+- No brute-force attack
+- No credential compromise
+- Designed for intrusion detection training
+
