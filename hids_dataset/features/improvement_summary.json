@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-02-24T10:30:20.461302",
+  "improvements": {
+    "synthetic_samples_added": 4000,
+    "new_features_added": 6,
+    "feature_engineering_applied": true,
+    "attack_scenarios_expanded": 7
+  },
+  "training_data": {
+    "total_samples": 3200,
+    "malicious_count": 1614,
+    "benign_count": 1586,
+    "class_balance_ratio": "1.02:1"
+  },
+  "test_data": {
+    "total_samples": 800,
+    "malicious_count": 386,
+    "benign_count": 414,
+    "class_balance_ratio": "0.93:1"
+  },
+  "recommendations": [
+    "Retrain model with balanced dataset - should improve recall significantly",
+    "New engineered features capture behavioral complexity and attack vectors",
+    "Expanded malicious scenarios (7 types) improve attack pattern coverage",
+    "Consider SHAP analysis on new features to validate effectiveness",
+    "Hyperparameter tuning may be needed with new feature space"
+  ]
+}
