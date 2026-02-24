@@ -1,0 +1,23 @@
+{
+  "feature_names": [
+    "avg_command_length",
+    "avg_time_delta",
+    "cmd_entropy",
+    "contains_pipe",
+    "contains_redirect",
+    "contains_sudo",
+    "event_count",
+    "max_command_length",
+    "max_time_delta",
+    "min_command_length",
+    "min_time_delta",
+    "process_entropy",
+    "std_time_delta",
+    "suspicious_patterns",
+    "top_process_freq",
+    "total_commands",
+    "total_processes",
+    "unique_commands",
+    "unique_processes"
+  ]
+}

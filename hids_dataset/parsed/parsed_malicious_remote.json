@@ -1,0 +1,457 @@
+[
+  {
+    "timestamp": 1769928916.603,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo tail -f /var/log/audit/audit.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928916.627,
+    "event_type": "process_exec",
+    "process": "tail",
+    "command": "tail -f /var/log/audit/audit.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929066.082,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929066.104,
+    "event_type": "process_exec",
+    "process": "df",
+    "command": "df -P",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929067.234,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929067.241,
+    "event_type": "process_exec",
+    "process": "netstat",
+    "command": "netstat -tulpn",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929067.242,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929067.247,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929067.242,
+    "event_type": "process_exec",
+    "process": "sort",
+    "command": "sort -k 4 -g",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929067.264,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed 1,2d",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929067.407,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929067.411,
+    "event_type": "process_exec",
+    "process": "last",
+    "command": "last -n 20",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929141.945,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 162 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929141.962,
+    "event_type": "process_exec",
+    "process": "/usr/libexec/nm-dispatcher",
+    "command": "/usr/libexec/nm-dispatcher",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929201.553,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh -c",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929201.593,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 162 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929201.681,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/lib/sysstat/sa1 1 1",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929201.704,
+    "event_type": "process_exec",
+    "process": "/usr/lib/sysstat/sadc",
+    "command": "/usr/lib/sysstat/sadc -F -L -S DISK 1 1 /var/log/sysstat",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929426.096,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929426.105,
+    "event_type": "process_exec",
+    "process": "df",
+    "command": "df -P",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929428.119,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929428.151,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929428.153,
+    "event_type": "process_exec",
+    "process": "netstat",
+    "command": "netstat -tulpn",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929428.17,
+    "event_type": "process_exec",
+    "process": "sort",
+    "command": "sort -k 4 -g",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929428.17,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed 1,2d",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929428.174,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929428.241,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929428.269,
+    "event_type": "process_exec",
+    "process": "last",
+    "command": "last -n 20",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929441.961,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 162 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929442.028,
+    "event_type": "process_exec",
+    "process": "/usr/libexec/nm-dispatcher",
+    "command": "/usr/libexec/nm-dispatcher",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929457.42,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 162 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929457.435,
+    "event_type": "process_exec",
+    "process": "/usr/sbin/anacron",
+    "command": "/usr/sbin/anacron -d -q -s",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929501.639,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh -c",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929501.644,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/lib/sysstat/debian-sa1 1 1",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929503.059,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 163 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929503.127,
+    "event_type": "process_exec",
+    "process": "/usr/libexec/fprintd",
+    "command": "/usr/libexec/fprintd",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929503.162,
+    "event_type": "process_exec",
+    "process": null,
+    "command": "",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929509.391,
+    "event_type": "process_exec",
+    "process": "/usr/bin/nautilus",
+    "command": "/usr/bin/nautilus --gapplication-service",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929509.529,
+    "event_type": "process_exec",
+    "process": "/usr/bin/env",
+    "command": "/usr/bin/env gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929509.538,
+    "event_type": "process_exec",
+    "process": "gjs",
+    "command": "gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929510.105,
+    "event_type": "process_exec",
+    "process": "nautilus",
+    "command": "nautilus --version",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929510.397,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /etc/gdm3/PrimeOff/Default",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929554.739,
+    "event_type": "process_exec",
+    "process": "/usr/bin/nautilus",
+    "command": "/usr/bin/nautilus --gapplication-service",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929555.287,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 172 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929555.339,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-hostnamed",
+    "command": "/usr/lib/systemd/systemd-hostnamed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929555.415,
+    "event_type": "process_exec",
+    "process": "/usr/libexec/gvfsd-recent",
+    "command": "/usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929562.752,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929562.759,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929562.768,
+    "event_type": "process_exec",
+    "process": "basename",
+    "command": "basename /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929562.773,
+    "event_type": "process_exec",
+    "process": "dirname",
+    "command": "dirname /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929562.776,
+    "event_type": "process_exec",
+    "process": "dircolors",
+    "command": "dircolors -b",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929567.343,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929575.439,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929586.058,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929592.565,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929635.835,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo cp /var/log/audit/audit.log /root/Desktop/hids_dataset/raw/malicious_remote.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929635.853,
+    "event_type": "process_exec",
+    "process": "cp",
+    "command": "cp /var/log/audit/audit.log /root/Desktop/hids_dataset/raw/malicious_remote.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929698.065,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo cp /var/log/audit/audit.log /root/Desktop/hids_dataset/raw/malicious_remote.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929698.084,
+    "event_type": "process_exec",
+    "process": "cp",
+    "command": "cp /var/log/audit/audit.log /root/Desktop/hids_dataset/raw/malicious_remote.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929724.841,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo cp /var/log/audit/audit.log /root/Desktop/hids_dataset/raw/malicious_remote.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929724.866,
+    "event_type": "process_exec",
+    "process": "cp",
+    "command": "cp /var/log/audit/audit.log /root/Desktop/hids_dataset/raw/malicious_remote.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929741.948,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 164 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929741.956,
+    "event_type": "process_exec",
+    "process": "/usr/libexec/nm-dispatcher",
+    "command": "/usr/libexec/nm-dispatcher",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929743.065,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo cp /var/log/audit/audit.log /home/heroic/Desktop/hids_dataset/raw/malicious_remote.log~",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929747.379,
+    "event_type": "process_exec",
+    "process": "cp",
+    "command": "cp /var/log/audit/audit.log /home/heroic/Desktop/hids_dataset/raw/malicious_remote.log~",
+    "source": "auditd"
+  }
+]

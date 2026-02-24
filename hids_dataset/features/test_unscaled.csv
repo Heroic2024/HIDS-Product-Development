@@ -1,0 +1,4 @@
+avg_command_length,avg_time_delta,cmd_entropy,contains_pipe,contains_redirect,contains_sudo,event_count,max_command_length,max_time_delta,min_command_length,min_time_delta,process_entropy,std_time_delta,suspicious_patterns,top_process_freq,total_commands,total_processes,unique_commands,unique_processes,label
+71.73292,6.187056,5.150443,0.0,2.0,40.0,161.0,671.0,37.581,2.0,0.049999952,4.418389,6.701456,16.0,29.0,161.0,161.0,49.0,33.0,1
+69.3037,7.3875895,4.9392986,0.0,1.0,33.0,135.0,671.0,50.984,2.0,0.019000053,4.311604,7.913795,7.0,23.0,135.0,135.0,41.0,31.0,0
+46.674072,7.19961,4.9130416,0.0,1.0,32.0,137.0,671.0,47.995,2.0,0.0050001144,4.1722903,8.249858,7.0,27.0,135.0,135.0,41.0,29.0,0

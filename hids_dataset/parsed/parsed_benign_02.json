@@ -1,0 +1,975 @@
+[
+  {
+    "timestamp": 1769929241.423,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929117.101,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929357.544,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928754.749,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /tmp/hids_malicious",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928963.376,
+    "event_type": "process_exec",
+    "process": "whoami",
+    "command": "whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928903.81,
+    "event_type": "process_exec",
+    "process": "/usr/libexec/nm-dispatcher",
+    "command": "/usr/libexec/nm-dispatcher",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928413.557,
+    "event_type": "process_exec",
+    "process": "chmod",
+    "command": "chmod +x payload.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928672.611,
+    "event_type": "process_exec",
+    "process": "last",
+    "command": "last -n 20",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928799.79,
+    "event_type": "process_exec",
+    "process": "whoami",
+    "command": "whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928975.277,
+    "event_type": "process_exec",
+    "process": "tail",
+    "command": "tail -f /var/log/audit/audit.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928705.49,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929217.485,
+    "event_type": "process_exec",
+    "process": "tee",
+    "command": "tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928921.973,
+    "event_type": "process_exec",
+    "process": "whoami",
+    "command": "whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929295.453,
+    "event_type": "process_exec",
+    "process": "whoami",
+    "command": "whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928917.1078,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928541.386,
+    "event_type": "process_exec",
+    "process": "ss",
+    "command": "ss -tulnp",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928426.239,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /tmp/hids_malicious",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929275.112,
+    "event_type": "process_exec",
+    "process": "uname",
+    "command": "uname -a",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928972.35,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928977.81,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s file:///tmp/hids_malicious/payload.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929297.241,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/lib/sysstat/sa1 1 1",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929054.381,
+    "event_type": "process_exec",
+    "process": "tee",
+    "command": "tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929121.432,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929053.157,
+    "event_type": "process_exec",
+    "process": "/usr/libexec/nm-dispatcher",
+    "command": "/usr/libexec/nm-dispatcher",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928555.757,
+    "event_type": "process_exec",
+    "process": "/usr/libexec/nm-dispatcher",
+    "command": "/usr/libexec/nm-dispatcher",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929027.202,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /tmp/hids_malicious",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928551.642,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.dat file_11.dat file_12.dat file_13.dat file_14.dat file_15.dat file_16.dat file_17.dat file_18.dat file_19.dat file_1.dat file_20.dat file_21.dat file_22.dat file_23.dat file_24.dat file_25.dat file_26.dat file_27.dat file_28.dat file_29.dat file_2.dat file_30.dat file_31.dat file_32.dat file_33.dat file_34.dat file_35.dat file_36.dat file_37.dat file_38.dat file_39.dat file_3.dat file_40.dat file_41.dat file_42.dat file_43.dat file_44.dat file_45.dat file_46.dat file_47.dat file_48.dat file_49.dat file_4.dat file_50.dat file_5.dat file_6.dat file_7.dat file_8.dat file_9.dat payload.sh recon.txt netstat.txt processes.txt sudo_enum.txt sudo_test.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928769.73,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928605.1109,
+    "event_type": "process_exec",
+    "process": "ps",
+    "command": "ps aux",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929112.354,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo rm -f /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928602.26,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929299.337,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928546.501,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929152.263,
+    "event_type": "process_exec",
+    "process": "chmod",
+    "command": "chmod +x payload.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928752.1046,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929408.582,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929349.843,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo -l",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929266.667,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929050.644,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 113 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929169.5,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s file:///tmp/hids_malicious/payload.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928526.719,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928765.735,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /tmp/hids_malicious",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929023.973,
+    "event_type": "process_exec",
+    "process": "chmod",
+    "command": "chmod +x payload.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929297.42,
+    "event_type": "process_exec",
+    "process": "uname",
+    "command": "uname -a",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928923.408,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928578.682,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /tmp/hids_malicious",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928919.61,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 315 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929407.48,
+    "event_type": "process_exec",
+    "process": "chmod",
+    "command": "chmod +x payload.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929214.819,
+    "event_type": "process_exec",
+    "process": "chmod",
+    "command": "chmod +x payload.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929173.687,
+    "event_type": "process_exec",
+    "process": "chmod",
+    "command": "chmod +x payload.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929337.382,
+    "event_type": "process_exec",
+    "process": "whoami",
+    "command": "whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929351.695,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928540.932,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 90",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928911.589,
+    "event_type": "process_exec",
+    "process": "ps",
+    "command": "ps aux",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929080.387,
+    "event_type": "process_exec",
+    "process": "/usr/libexec/nm-dispatcher",
+    "command": "/usr/libexec/nm-dispatcher",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928822.969,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 90",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928474.638,
+    "event_type": "process_exec",
+    "process": "ps",
+    "command": "ps aux",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928440.61,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 525 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929380.754,
+    "event_type": "process_exec",
+    "process": "whoami",
+    "command": "whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929169.88,
+    "event_type": "process_exec",
+    "process": "ss",
+    "command": "ss -tulnp",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929050.977,
+    "event_type": "process_exec",
+    "process": "netstat",
+    "command": "netstat -tulpn",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929246.659,
+    "event_type": "process_exec",
+    "process": "nautilus",
+    "command": "nautilus --version",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929313.98,
+    "event_type": "process_exec",
+    "process": "uname",
+    "command": "uname -a",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928747.591,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo -l",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928604.189,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929256.529,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929060.931,
+    "event_type": "process_exec",
+    "process": "uname",
+    "command": "uname -a",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929182.491,
+    "event_type": "process_exec",
+    "process": "tee",
+    "command": "tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929375.599,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929158.286,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo rm -f /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928925.485,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929345.341,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo -l",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929113.424,
+    "event_type": "process_exec",
+    "process": "tee",
+    "command": "tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929032.982,
+    "event_type": "process_exec",
+    "process": "id",
+    "command": "id",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928437.181,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929185.439,
+    "event_type": "process_exec",
+    "process": "ss",
+    "command": "ss -tulnp",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928540.212,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed 1,2d",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929273.446,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /tmp/hids_malicious",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928494.811,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928571.251,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928567.799,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo cp /var/log/audit/audit.log /root/Desktop/hids_dataset/raw/malicious_remote.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928440.511,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929139.1201,
+    "event_type": "process_exec",
+    "process": "chmod",
+    "command": "chmod +x payload.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928960.69,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929251.653,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /tmp/hids_malicious",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928944.438,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /tmp/hids_malicious",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929347.398,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929260.535,
+    "event_type": "process_exec",
+    "process": "whoami",
+    "command": "whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928948.1067,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /etc/gdm3/PrimeOff/Default",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928998.539,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928659.165,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /tmp/hids_malicious",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928610.624,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929056.944,
+    "event_type": "process_exec",
+    "process": "groups",
+    "command": "groups",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929229.434,
+    "event_type": "process_exec",
+    "process": "ps",
+    "command": "ps aux",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928458.58,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s file:///tmp/hids_malicious/payload.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928912.726,
+    "event_type": "process_exec",
+    "process": "/usr/lib/sysstat/sadc",
+    "command": "/usr/lib/sysstat/sadc -F -L -S DISK 1 1 /var/log/sysstat",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928583.271,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928891.293,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 90",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929044.582,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 385 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928689.468,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 90",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928615.902,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo tail -f /var/log/audit/audit.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929388.414,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 459 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928528.97,
+    "event_type": "process_exec",
+    "process": "ps",
+    "command": "ps aux",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928483.251,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929369.376,
+    "event_type": "process_exec",
+    "process": "tail",
+    "command": "tail -f /var/log/audit/audit.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929318.35,
+    "event_type": "process_exec",
+    "process": "whoami",
+    "command": "whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928415.473,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo -l",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929237.121,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929345.481,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929076.974,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /tmp/hids_malicious",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929024.279,
+    "event_type": "process_exec",
+    "process": "whoami",
+    "command": "whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929332.542,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s file:///tmp/hids_malicious/payload.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928573.378,
+    "event_type": "process_exec",
+    "process": "whoami",
+    "command": "whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928870.983,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo rm -f /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928413.749,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo -l",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929262.759,
+    "event_type": "process_exec",
+    "process": "chmod",
+    "command": "chmod +x payload.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928621.132,
+    "event_type": "process_exec",
+    "process": "gpg",
+    "command": "gpg --enable-special-filenames --batch --no-sk-comments --homedir /var/lib/fwupd/gnupg --status-fd 19 --no-tty --charset utf8 --enable-progress-filter --exit-on-status-write-error --logger-fd 21 --import -- -&22",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928480.998,
+    "event_type": "process_exec",
+    "process": "ps",
+    "command": "ps aux",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929322.491,
+    "event_type": "process_exec",
+    "process": "dirname",
+    "command": "dirname /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928528.1022,
+    "event_type": "process_exec",
+    "process": "ss",
+    "command": "ss -tulnp",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929180.202,
+    "event_type": "process_exec",
+    "process": "tee",
+    "command": "tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928519.454,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo -l",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929325.775,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929373.23,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928654.1049,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929351.154,
+    "event_type": "process_exec",
+    "process": "su",
+    "command": "su",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929411.642,
+    "event_type": "process_exec",
+    "process": "uname",
+    "command": "uname -a",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928724.92,
+    "event_type": "process_exec",
+    "process": "id",
+    "command": "id",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928946.635,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo whoami",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928887.769,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928800.28,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929077.444,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo rm -f /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928859.382,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929104.673,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo su",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929361.1011,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928726.24,
+    "event_type": "process_exec",
+    "process": "tee",
+    "command": "tee /etc/cron.d/hids_persist",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928968.467,
+    "event_type": "process_exec",
+    "process": "dircolors",
+    "command": "dircolors -b",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769929111.468,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /tmp/hids_malicious",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769928932.31,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo whoami",
+    "source": "auditd"
+  }
+]

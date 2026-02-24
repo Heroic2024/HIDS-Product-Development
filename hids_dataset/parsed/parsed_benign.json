@@ -1,0 +1,4993 @@
+[
+  {
+    "timestamp": 1769263519.511,
+    "event_type": "process_exec",
+    "process": "/bin/bash",
+    "command": "/bin/bash ./benign_activity.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.519,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.543,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.548,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.55,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.552,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.556,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.558,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.56,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.562,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.564,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.566,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.568,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.588,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.597,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.605,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.613,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.623,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.625,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.628,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.631,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.633,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263519.635,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263520.052,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263520.064,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263525.071,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263525.08,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263525.112,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263541.944,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263541.951,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263541.959,
+    "event_type": "process_exec",
+    "process": "basename",
+    "command": "basename /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263541.964,
+    "event_type": "process_exec",
+    "process": "dirname",
+    "command": "dirname /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263541.986,
+    "event_type": "process_exec",
+    "process": "dircolors",
+    "command": "dircolors -b",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263559.604,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo su",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263562.778,
+    "event_type": "process_exec",
+    "process": "su",
+    "command": "su",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263562.791,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263562.795,
+    "event_type": "process_exec",
+    "process": "groups",
+    "command": "groups",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263562.797,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263562.799,
+    "event_type": "process_exec",
+    "process": "basename",
+    "command": "basename /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263562.802,
+    "event_type": "process_exec",
+    "process": "dirname",
+    "command": "dirname /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263562.805,
+    "event_type": "process_exec",
+    "process": "dircolors",
+    "command": "dircolors -b",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.121,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.125,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.13,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.144,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.147,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.15,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.151,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.154,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.156,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.157,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.159,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.161,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.171,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.18,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.186,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.195,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.203,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.206,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.208,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.212,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.215,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.216,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.398,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263585.405,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263590.413,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263590.424,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263590.43,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263603.524,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo tail -f /var/log/audit/audit.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263603.544,
+    "event_type": "process_exec",
+    "process": "tail",
+    "command": "tail -f /var/log/audit/audit.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263640.26,
+    "event_type": "process_exec",
+    "process": "/usr/bin/touch",
+    "command": "/usr/bin/touch /run/udev/gdm-machine-has-hardware-gpu",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263640.264,
+    "event_type": "process_exec",
+    "process": "/usr/lib/snapd/snap-device-helper",
+    "command": "/usr/lib/snapd/snap-device-helper change snap_firefox_firefox /devices/pci0000:00/0000:00:02.0/drm/card0 226:0",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263640.266,
+    "event_type": "process_exec",
+    "process": "/usr/lib/snapd/snap-device-helper",
+    "command": "/usr/lib/snapd/snap-device-helper change snap_firefox_geckodriver /devices/pci0000:00/0000:00:02.0/drm/card0 226:0",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263640.272,
+    "event_type": "process_exec",
+    "process": "/usr/lib/snapd/snap-device-helper",
+    "command": "/usr/lib/snapd/snap-device-helper change snap_firmware-updater_firmware-notifier /devices/pci0000:00/0000:00:02.0/drm/card0 226:0",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263640.282,
+    "event_type": "process_exec",
+    "process": "/usr/lib/snapd/snap-device-helper",
+    "command": "/usr/lib/snapd/snap-device-helper change snap_firmware-updater_firmware-updater /devices/pci0000:00/0000:00:02.0/drm/card0 226:0",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263640.291,
+    "event_type": "process_exec",
+    "process": "/usr/lib/snapd/snap-device-helper",
+    "command": "/usr/lib/snapd/snap-device-helper change snap_firmware-updater_firmware-updater-app /devices/pci0000:00/0000:00:02.0/drm/card0 226:0",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263640.296,
+    "event_type": "process_exec",
+    "process": "/usr/lib/snapd/snap-device-helper",
+    "command": "/usr/lib/snapd/snap-device-helper change snap_snap-store_show-updates /devices/pci0000:00/0000:00:02.0/drm/card0 226:0",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263640.299,
+    "event_type": "process_exec",
+    "process": "/usr/lib/snapd/snap-device-helper",
+    "command": "/usr/lib/snapd/snap-device-helper change snap_snap-store_snap-store /devices/pci0000:00/0000:00:02.0/drm/card0 226:0",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263640.301,
+    "event_type": "process_exec",
+    "process": "/usr/lib/snapd/snap-device-helper",
+    "command": "/usr/lib/snapd/snap-device-helper change snap_snapd-desktop-integration_snapd-desktop-integration /devices/pci0000:00/0000:00:02.0/drm/card0 226:0",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.437,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.463,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.466,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.468,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.47,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.472,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.474,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.476,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.499,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.505,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.508,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.508,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.543,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.551,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.56,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.57,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.584,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.59,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.593,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.594,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.594,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.594,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.779,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263650.796,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263655.806,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263655.835,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263655.84,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.845,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.854,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.869,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.872,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.882,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.888,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.899,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.901,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.904,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.911,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.914,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.924,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.939,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.955,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.966,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.974,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.985,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.99,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.994,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263715.997,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263716.004,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263716.006,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263716.212,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263716.221,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263721.232,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263721.238,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263721.238,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263744.971,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo tail -f /var/log/audit/audit.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263745.006,
+    "event_type": "process_exec",
+    "process": "tail",
+    "command": "tail -f /var/log/audit/audit.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.246,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.251,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.256,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.263,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.266,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.275,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.28,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.281,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.283,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.286,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.288,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.289,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.299,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.308,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.316,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.324,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.332,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.334,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.336,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.338,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.341,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.344,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.502,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263781.514,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263786.519,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263786.526,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263786.54,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263801.347,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 71 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263801.391,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/lib/sysstat/sa1 1 1",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263801.4,
+    "event_type": "process_exec",
+    "process": "/usr/lib/sysstat/sadc",
+    "command": "/usr/lib/sysstat/sadc -F -L -S DISK 1 1 /var/log/sysstat",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263832.609,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263832.612,
+    "event_type": "process_exec",
+    "process": "df",
+    "command": "df -P",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263832.616,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263832.619,
+    "event_type": "process_exec",
+    "process": "netstat",
+    "command": "netstat -tulpn",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263832.62,
+    "event_type": "process_exec",
+    "process": "sort",
+    "command": "sort -k 4 -g",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263832.62,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263832.62,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263832.622,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed 1,2d",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263832.67,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263832.673,
+    "event_type": "process_exec",
+    "process": "last",
+    "command": "last -n 20",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.548,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.56,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.567,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.574,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.58,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.591,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.661,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.729,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.733,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.736,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.742,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.746,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.764,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.78,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.799,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.814,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.829,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.833,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.838,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.841,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.846,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263846.85,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263847.061,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263847.072,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263852.079,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263852.085,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263852.091,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.1,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.117,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.131,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.146,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.191,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.196,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.214,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.215,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.232,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.235,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.242,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.269,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.33,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.371,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.419,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.456,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.497,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.514,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.531,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.546,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.561,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.584,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.895,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263912.938,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263917.958,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263917.977,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263918.002,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.02,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.042,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.068,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.1,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.12,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.142,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.171,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.251,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.281,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.298,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.334,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.347,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.397,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.464,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.521,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.62,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.698,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.718,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.732,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.751,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.768,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263978.787,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263979.075,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263979.107,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263984.14,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263984.153,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769263984.18,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.193,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.201,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.209,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.214,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.227,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.234,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.238,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.242,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.275,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.309,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.314,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.337,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.361,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.378,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.393,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.406,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.42,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.425,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.43,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.433,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.437,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.441,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.62,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264044.634,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264049.646,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264049.655,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264049.661,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264101.392,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh -c",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264101.401,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/lib/sysstat/debian-sa1 1 1",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.67,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.677,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.684,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.693,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.699,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.703,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.707,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.723,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.856,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.874,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.882,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.887,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.917,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.93,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.946,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.958,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.971,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.975,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.978,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.982,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.987,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264109.991,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264110.183,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264110.194,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264115.202,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264115.209,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264115.214,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264155.971,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo tail -f /var/log/audit/audit.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264156.013,
+    "event_type": "process_exec",
+    "process": "tail",
+    "command": "tail -f /var/log/audit/audit.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264192.154,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264192.159,
+    "event_type": "process_exec",
+    "process": "df",
+    "command": "df -P",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264192.166,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264192.171,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264192.171,
+    "event_type": "process_exec",
+    "process": "sort",
+    "command": "sort -k 4 -g",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264192.171,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264192.182,
+    "event_type": "process_exec",
+    "process": "netstat",
+    "command": "netstat -tulpn",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264192.177,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed 1,2d",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264192.203,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264192.226,
+    "event_type": "process_exec",
+    "process": "last",
+    "command": "last -n 20",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264247.812,
+    "event_type": "process_exec",
+    "process": "/bin/bash",
+    "command": "/bin/bash ./benign_activity.sh",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264247.868,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264247.874,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264247.874,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264247.941,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264247.973,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264247.978,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264247.982,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264247.986,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264247.991,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.008,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.013,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.017,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.048,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.061,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.076,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.103,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.124,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.124,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.134,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.139,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.15,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.154,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.389,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264248.41,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264253.422,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264253.43,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264253.438,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.446,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.454,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.457,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.466,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.474,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.487,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.493,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.5,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.506,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.512,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.519,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.525,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.544,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.568,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.586,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.604,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.621,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.626,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.632,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.637,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.641,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.645,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.846,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264313.855,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264318.862,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264318.87,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264318.89,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264341.743,
+    "event_type": "process_exec",
+    "process": "/usr/bin/nautilus",
+    "command": "/usr/bin/nautilus --gapplication-service",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264342.635,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 103 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264342.718,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-hostnamed",
+    "command": "/usr/lib/systemd/systemd-hostnamed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264342.92,
+    "event_type": "process_exec",
+    "process": "/usr/libexec/gvfsd-recent",
+    "command": "/usr/libexec/gvfsd-recent --spawner :1.19 /org/gtk/gvfs/exec_spaw/5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264378.909,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264378.922,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264378.928,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264378.933,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264378.943,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264378.952,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264378.99,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.023,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.028,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.035,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.04,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.044,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.135,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.155,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.173,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.192,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.211,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.219,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.224,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.233,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.237,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.242,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.596,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264379.609,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264384.631,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264384.636,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264384.637,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264390.213,
+    "event_type": "process_exec",
+    "process": "/usr/lib/x86_64-linux-gnu/glib-2.0/gio-launch-desktop",
+    "command": "/usr/lib/x86_64-linux-gnu/glib-2.0/gio-launch-desktop /usr/bin/gnome-text-editor /home/heroic/Desktop/Downloads",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264390.213,
+    "event_type": "process_exec",
+    "process": "/usr/bin/gnome-text-editor",
+    "command": "/usr/bin/gnome-text-editor /home/heroic/Desktop/Downloads",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264396.86,
+    "event_type": "process_exec",
+    "process": "/usr/lib/x86_64-linux-gnu/glib-2.0/gio-launch-desktop",
+    "command": "/usr/lib/x86_64-linux-gnu/glib-2.0/gio-launch-desktop /usr/bin/gnome-text-editor /home/heroic/Desktop/Downloads",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264396.871,
+    "event_type": "process_exec",
+    "process": "/usr/bin/gnome-text-editor",
+    "command": "/usr/bin/gnome-text-editor /home/heroic/Desktop/Downloads",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264400.381,
+    "event_type": "process_exec",
+    "process": "/usr/lib/x86_64-linux-gnu/glib-2.0/gio-launch-desktop",
+    "command": "/usr/lib/x86_64-linux-gnu/glib-2.0/gio-launch-desktop /usr/bin/gnome-text-editor /home/heroic/Desktop/Wazuh.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264400.396,
+    "event_type": "process_exec",
+    "process": "/usr/bin/gnome-text-editor",
+    "command": "/usr/bin/gnome-text-editor /home/heroic/Desktop/Wazuh.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264400.4,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 91 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264400.417,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/lib/sysstat/sa1 1 1",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264400.444,
+    "event_type": "process_exec",
+    "process": "/usr/lib/sysstat/sadc",
+    "command": "/usr/lib/sysstat/sadc -F -L -S DISK 1 1 /var/log/sysstat",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.644,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.653,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.665,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.668,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.673,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.677,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.692,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.697,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.708,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.714,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.718,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.725,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.743,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.769,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.783,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.804,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.819,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.823,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.829,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.835,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.84,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264444.844,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264445.081,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264445.095,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264450.113,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264450.12,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264450.128,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.141,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.147,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.153,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.161,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.167,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.172,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.177,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.181,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.188,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.191,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.195,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.199,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.221,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.237,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.255,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.269,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.282,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.286,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.289,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.294,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.3,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.304,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.692,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264510.709,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264515.716,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264515.724,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264515.734,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264537.527,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto -l",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264552.211,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264552.231,
+    "event_type": "process_exec",
+    "process": "df",
+    "command": "df -P",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264552.263,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264552.271,
+    "event_type": "process_exec",
+    "process": "netstat",
+    "command": "netstat -tulpn",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264552.273,
+    "event_type": "process_exec",
+    "process": "sort",
+    "command": "sort -k 4 -g",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264552.274,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264552.273,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264552.277,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed 1,2d",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264552.427,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264552.454,
+    "event_type": "process_exec",
+    "process": "last",
+    "command": "last -n 20",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264575.746,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264575.766,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264575.805,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264575.825,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264575.843,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264575.857,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264575.872,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264575.899,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264575.919,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264575.94,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264575.952,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264575.966,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264576.013,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264576.058,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264576.099,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264576.163,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264576.242,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264576.265,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264576.313,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264576.34,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264576.357,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264576.372,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264576.678,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264576.721,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264581.743,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264581.762,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264581.836,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.852,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.86,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.87,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.87,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.881,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.887,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.892,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.897,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.899,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.904,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.91,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.914,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.935,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.949,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.965,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.979,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.991,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.995,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264641.999,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264642.003,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264642.006,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264642.01,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264642.202,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264642.213,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264647.222,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264647.23,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264647.324,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264653.496,
+    "event_type": "process_exec",
+    "process": "mv",
+    "command": "mv /root/hids_dataset/ /home",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264688.201,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264692.743,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264701.469,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh -c",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264701.478,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/lib/sysstat/debian-sa1 1 1",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.332,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.338,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.344,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.352,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.358,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.363,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.368,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.372,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.376,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.38,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.384,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.389,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.407,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.426,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.477,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.498,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.513,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.519,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.525,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.531,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.536,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.544,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.75,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264707.76,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264712.768,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264712.779,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264712.786,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264730.648,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.795,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.804,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.809,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.817,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.823,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.829,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.834,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.838,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.844,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.848,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.853,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.858,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.879,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.894,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.909,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.923,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.938,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.942,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.948,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.952,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.956,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264772.959,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264777.142,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264777.158,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264782.165,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264782.17,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264782.178,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264797.243,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264810.495,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto -CF",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264813.081,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.19,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir -p /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.206,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.212,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.218,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.223,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.229,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.234,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_6.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.238,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_7.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.244,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_8.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.249,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_9.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.252,
+    "event_type": "process_exec",
+    "process": "cat",
+    "command": "cat file_10.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.258,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_1.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.275,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_2.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.294,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_3.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.308,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_4.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.325,
+    "event_type": "process_exec",
+    "process": "vim",
+    "command": "vim -es file_5.txt",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.337,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.343,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.344,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.351,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.355,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls -la",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.359,
+    "event_type": "process_exec",
+    "process": "curl",
+    "command": "curl -s https://example.com",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.546,
+    "event_type": "process_exec",
+    "process": "ssh",
+    "command": "ssh -o BatchMode=yes localhost",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264842.564,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 5",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264847.574,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -f file_10.txt file_1.txt file_2.txt file_3.txt file_4.txt file_5.txt file_6.txt file_7.txt file_8.txt file_9.txt webpage.html dir_list.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264847.595,
+    "event_type": "process_exec",
+    "process": "rmdir",
+    "command": "rmdir /root/hids_benign",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264847.603,
+    "event_type": "process_exec",
+    "process": "sleep",
+    "command": "sleep 60",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264851.291,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264912.343,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264912.348,
+    "event_type": "process_exec",
+    "process": "df",
+    "command": "df -P",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264912.356,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264912.362,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264912.36,
+    "event_type": "process_exec",
+    "process": "netstat",
+    "command": "netstat -tulpn",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264912.362,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264912.363,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed 1,2d",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264912.369,
+    "event_type": "process_exec",
+    "process": "sort",
+    "command": "sort -k 4 -g",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264912.405,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264912.406,
+    "event_type": "process_exec",
+    "process": "last",
+    "command": "last -n 20",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264923.562,
+    "event_type": "process_exec",
+    "process": "mv",
+    "command": "mv hids_dataset/ /home/heroic/Desktop",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264931.404,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo su",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264933.879,
+    "event_type": "process_exec",
+    "process": "su",
+    "command": "su",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264933.905,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264934.021,
+    "event_type": "process_exec",
+    "process": "groups",
+    "command": "groups",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264934.05,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264934.054,
+    "event_type": "process_exec",
+    "process": "basename",
+    "command": "basename /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264934.06,
+    "event_type": "process_exec",
+    "process": "dirname",
+    "command": "dirname /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264934.066,
+    "event_type": "process_exec",
+    "process": "dircolors",
+    "command": "dircolors -b",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264948.426,
+    "event_type": "process_exec",
+    "process": "mv",
+    "command": "mv hids_dataset/ /root/Desktop",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264968.129,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769264992.555,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265008.931,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 90 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265008.993,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/lib/sysstat/sa1 1 1",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265009.006,
+    "event_type": "process_exec",
+    "process": "/usr/lib/sysstat/sadc",
+    "command": "/usr/lib/sysstat/sadc -F -L -S DISK 1 1 /var/log/sysstat",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265012.466,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265025.665,
+    "event_type": "process_exec",
+    "process": "/usr/bin/python3",
+    "command": "/usr/bin/python3 /usr/lib/command-not-found -- LS",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265025.929,
+    "event_type": "process_exec",
+    "process": "/usr/bin/snap",
+    "command": "/usr/bin/snap advise-snap --format=json --command LS",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265027.414,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265184.09,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm features meta parsed raw windows",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265197.233,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm features",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265224.895,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo rm -rf Desktop/",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265225.032,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -rf Desktop/",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265231.678,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265246.179,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265272.841,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265272.846,
+    "event_type": "process_exec",
+    "process": "df",
+    "command": "df -P",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265272.854,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265272.858,
+    "event_type": "process_exec",
+    "process": "netstat",
+    "command": "netstat -tulpn",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265272.858,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265272.858,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265272.858,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed 1,2d",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265272.864,
+    "event_type": "process_exec",
+    "process": "sort",
+    "command": "sort -k 4 -g",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265272.913,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265272.917,
+    "event_type": "process_exec",
+    "process": "last",
+    "command": "last -n 20",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265293.879,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265301.51,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh -c",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265301.518,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/lib/sysstat/debian-sa1 1 1",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265339.83,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265599.456,
+    "event_type": "process_exec",
+    "process": "mkdir",
+    "command": "mkdir mkdir -p hids_dataset/raw hids_dataset/parsed hids_dataset/windows hids_dataset/features hids_dataset/meta",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265599.642,
+    "event_type": "process_exec",
+    "process": "/usr/libexec/tracker-extract-3",
+    "command": "/usr/libexec/tracker-extract-3 --socket-fd 3",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265602.515,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265605.183,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 90 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265605.277,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/lib/sysstat/sa1 1 1",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265605.315,
+    "event_type": "process_exec",
+    "process": "/usr/lib/sysstat/sadc",
+    "command": "/usr/lib/sysstat/sadc -F -L -S DISK 1 1 /var/log/sysstat",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265610.511,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm mkdir/",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265616.132,
+    "event_type": "process_exec",
+    "process": "rm",
+    "command": "rm -rf mkdir",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265616.557,
+    "event_type": "process_exec",
+    "process": "/usr/libexec/tracker-extract-3",
+    "command": "/usr/libexec/tracker-extract-3 --socket-fd 3",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265624.607,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265632.304,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265632.312,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265632.32,
+    "event_type": "process_exec",
+    "process": "df",
+    "command": "df -P",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265632.329,
+    "event_type": "process_exec",
+    "process": "netstat",
+    "command": "netstat -tulpn",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265632.329,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265632.333,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265632.333,
+    "event_type": "process_exec",
+    "process": "sort",
+    "command": "sort -k 4 -g",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265632.337,
+    "event_type": "process_exec",
+    "process": "sed",
+    "command": "sed 1,2d",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265632.371,
+    "event_type": "process_exec",
+    "process": "sh",
+    "command": "sh -c --",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265632.389,
+    "event_type": "process_exec",
+    "process": "last",
+    "command": "last -n 20",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265691.287,
+    "event_type": "process_exec",
+    "process": "/usr/lib/systemd/systemd-executor",
+    "command": "/usr/lib/systemd/systemd-executor --deserialize 90 --log-level info --log-target journal-or-kmsg",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265691.353,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /etc/update-motd.d/50-motd-news --force",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265847.007,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo su",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265849.409,
+    "event_type": "process_exec",
+    "process": "su",
+    "command": "su",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265849.425,
+    "event_type": "process_exec",
+    "process": "bash",
+    "command": "bash",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265849.432,
+    "event_type": "process_exec",
+    "process": "groups",
+    "command": "groups",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265849.437,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265849.437,
+    "event_type": "process_exec",
+    "process": "basename",
+    "command": "basename /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265849.437,
+    "event_type": "process_exec",
+    "process": "dirname",
+    "command": "dirname /usr/bin/lesspipe",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265849.437,
+    "event_type": "process_exec",
+    "process": "dircolors",
+    "command": "dircolors -b",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265901.569,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh -c",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265901.576,
+    "event_type": "process_exec",
+    "process": "/bin/sh",
+    "command": "/bin/sh /usr/lib/sysstat/debian-sa1 1 1",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265904.096,
+    "event_type": "process_exec",
+    "process": "ls",
+    "command": "ls --color=auto",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265984.515,
+    "event_type": "process_exec",
+    "process": "sudo",
+    "command": "sudo cp /var/log/audit/audit.log hids_dataset/raw/benign.log",
+    "source": "auditd"
+  },
+  {
+    "timestamp": 1769265984.548,
+    "event_type": "process_exec",
+    "process": "cp",
+    "command": "cp /var/log/audit/audit.log hids_dataset/raw/benign.log",
+    "source": "auditd"
+  }
+]

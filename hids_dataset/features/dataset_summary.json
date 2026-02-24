@@ -1,0 +1,35 @@
+{
+  "total_samples": 12,
+  "categories": {
+    "benign": 4,
+    "malicious_local": 4,
+    "malicious_remote": 4
+  },
+  "feature_columns": [
+    "event_count",
+    "avg_time_delta",
+    "max_time_delta",
+    "min_time_delta",
+    "std_time_delta",
+    "unique_processes",
+    "unique_commands",
+    "total_processes",
+    "total_commands",
+    "top_process_freq",
+    "process_entropy",
+    "avg_command_length",
+    "max_command_length",
+    "min_command_length",
+    "cmd_entropy",
+    "suspicious_patterns",
+    "contains_sudo",
+    "contains_pipe",
+    "contains_redirect",
+    "filename",
+    "original_category",
+    "label"
+  ],
+  "benign_count": 4,
+  "malicious_local_count": 4,
+  "malicious_remote_count": 4
+}
